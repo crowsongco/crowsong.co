@@ -1,0 +1,39 @@
+/* Apply global font family from Google Fonts */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5c5c5c; /* Updated background color */
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif; /* Default font for body */
+    text-align: center;
+}
+
+/* Container style */
+.container {
+    max-width: 800px;
+}
+
+/* Crow's Egg Image styling */
+.egg-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* H1 with Raleway Font */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Countdown Timer style with Roboto Font */
+#countdown {
+    font-size: 2rem;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
