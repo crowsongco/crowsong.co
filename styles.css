@@ -1,71 +1,71 @@
-/* Apply global font family from Google Fonts */
-body {
+/* Global Styles */
+body, html {
+    height: 100%;
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #5c5c5c; /* Updated background color */
+    background-color: #5c5c5c; /* Background color */
     color: #ffffff;
     font-family: 'Roboto', sans-serif; /* Default font for body */
     text-align: center;
 }
 
-/* Container style */
+/* Main Container */
 .container {
     max-width: 800px;
 }
 
-/* Crow's Egg Image styling */
+/* Crow's Egg Image Styling */
 .egg-image {
     width: 300px;
     height: auto;
     margin-bottom: 30px;
 }
 
-/* H1 with Raleway Font */
+/* H1 Style with Raleway Font */
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     font-family: 'Raleway', sans-serif;
 }
 
-/* Countdown Timer style with Roboto Font */
+/* Countdown Timer Style */
 #countdown {
     font-size: 2rem;
     margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  main {
-    flex: 1;
-  }
-  
-  footer {
+/* Footer Styling */
+footer {
     padding: 20px;
-    text-align: center;
-    margin-top: auto; /* Ensures the footer stays at the bottom */
-  }
-  
-  .social-links a {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Social Links Styling */
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links a {
     margin: 0 10px;
     display: inline-block;
-  }
-  
-  .social-links img {
+}
+
+.social-links img {
     width: 40px;
     height: 40px;
     transition: transform 0.3s ease;
-  }
-  
-  .social-links img:hover {
+}
+
+.social-links img:hover {
     transform: scale(1.1);
-  }
+}
