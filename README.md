@@ -1,7 +1,7 @@
 # Crowsong Co. - Coming Soon Page
 
 This repository contains the code for the "Coming Soon" page of **Crowsong Co.**, featuring a crow's egg image and a countdown timer for the launch scheduled for **6 AM PST, October 1, 2024**.
-
+ 
 The page is built using static **HTML**, **CSS**, and **JavaScript**, and is hosted on **GitHub Pages**.
 
 ## Features
