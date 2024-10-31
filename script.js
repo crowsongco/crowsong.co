@@ -1,5 +1,5 @@
 const countdownElement = document.getElementById('countdown');
-const launchDate = new Date('November 1, 2024 06:00:00 PST').getTime();
+const launchDate = new Date('November 4, 2024 09:00:00 PST').getTime();
 
 const updateCountdown = () => {
     const now = new Date().getTime();
